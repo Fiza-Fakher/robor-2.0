@@ -1,16 +1,18 @@
 export const links = [
-  { name: "Home", path: "/" },
   { name: "About us", path: "/about" },
   { name: "Service", path: "/service" },
-  { name: "Pages" },
+  { name: "Projects",path:"/projects" },
+  {name:"Team",path:"/team"},
+  {name:"Ai Consulting", path:"/ai-consulting"},
   { name: "Blog", path: "/blog" },
-  { name: "Contact", path: "/contact" },
 ];
-export const pages = [
-  { name: "Projects", path: "/projects" },
-  { name: "Team", path: "/team" },
-  { name: "AI Consulting", path: "/ai-consulting" },
-];
+export const aboutIcons = [
+    { title: "Project Completed", number: 68, suffix: "M" },
+    { title: "Creative Minds", number: 16, suffix: "K" },
+    { title: "Happy Customers", number: 62, suffix: "M" },
+    { title: "Innovative Projects", number: 7, suffix: "K" },
+    { title: "Collaborative Team", number: 38, suffix: "M" },
+  ];
 export const logos = [
     "logo1.svg",
     "logo2.svg",
@@ -111,25 +113,38 @@ export const  homeBlogs = [
     },
   ];
   export const footerSections = [
-    {
-      title: "Useful Links",
-      links: ["Home", "About Us", "Blog Standard", "Project", "Contact Us"],
-    },
-    {
-      title: "Company",
-      links: ["What we Offer", "Our Story", "Latest Posts", "Help Center", "Our Partners"],
-    },
-    {
-      title: "Our Service",
-      links: [
-        "Robotic Automation",
-        "Education & Science",
-        "Machine Learning",
-        "Predictive Analysis",
-        "Data Security",
-      ],
-    },
-  ];
+  {
+    title: "Useful Links",
+    links: [
+      { name: "About", link: "/about" },
+      { name: "Projects", link: "/projects" },
+      { name: "Blog", link: "/blog" },
+      { name: "Services", link: "/service" },
+      { name: "Contact Us", link: "/contact" },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      { name: "What we Offer", link: "/offer" },
+      { name: "Our Story", link: "/story" },
+      { name: "Latest Posts", link: "/blog" },
+      { name: "Help Center", link: "/help" },
+      { name: "Our Partners", link: "/partners" },
+    ],
+  },
+  {
+    title: "Our Service",
+    links: [
+      { name: "Robotic Automation", link: "/robotic-automation" },
+      { name: "Education & Science", link: "/education-science" },
+      { name: "Machine Learning", link: "/machine-learning" },
+      { name: "Predictive Analysis", link: "/predictive-analysis" },
+      { name: "Data Security", link: "/data-security" },
+    ],
+  },
+];
+
   import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
   export const socials = [
     { icon: <FaFacebookF />, href: "http://facebook.com" },
@@ -139,12 +154,12 @@ export const  homeBlogs = [
   ];
     export const aboutUsCards = [
     {
-      icon: "/homepage/about_feature_icon1.svg",
+      icon: "/home/about_feature_icon1.svg",
       title: "100% Customers Satisfaction",
       des: "We bring a team of experienced AI specialists, data scientists, and industry experts committed to pushing boundaries.",
     },
     {
-      icon: "/homepage/about_feature_icon2.svg",
+      icon: "/home/about_feature_icon2.svg",
       title: "Quality Assurance Guarantee",
       des: "We bring a team of experienced AI specialists, data scientists, and industry experts committed to pushing boundaries.",
     },
@@ -179,49 +194,49 @@ export const faq = [
   ];
   export const serviceCards = [
   {
-    icon: "/homepage/service_icon_1.svg",
+    icon: "/home/service_icon_1.svg",
     title: "AI Development",
     slug: "ai-development",
     des: "Creating & optimizing models using proprietary or customer data. AI model tailored to specific business.",
   },
   {
-    icon: "/homepage/service_icon_2.svg",
+    icon: "/home/service_icon_2.svg",
     title: "Data Analytics",
     slug: "data-analytics",
     des: "Providing insights for time-sensitive decisions. Forecasting trends, risks, and opportunities.",
   },
   {
-    icon: "/homepage/service_icon_3.svg",
+    icon: "/home/service_icon_3.svg",
     title: "Machine Learning",
     slug: "machine-learning",
     des: "Building algorithms tailored to specific needs. Using advanced techniques to improve accuracy and efficiency.",
   },
   {
-    icon: "/homepage/service_icon_2.svg",
+    icon: "/home/service_icon_2.svg",
     title: "AI Consulting Services",
     slug: "ai-consulting-services",
     des: "Helping businesses identify the most impactful AI applications. Evaluating a business’s preparedness.",
   },
   {
-    icon: "/homepage/service_icon_3.svg",
+    icon: "/home/service_icon_3.svg",
     title: "Automation and Process",
     slug: "automation-and-process",
     des: "Automating repetitive tasks like data entry or invoice processing. Enhancing customer support.",
   },
   {
-    icon: "/homepage/service_icon_1.svg",
+    icon: "/home/service_icon_1.svg",
     title: "Education & Science",
     slug: "education-and-science",
     des: "Diagnostic tools, patient management systems, and predictive care. Fraud detection, algorithmic trading.",
   },
   {
-    icon: "/homepage/service_icon_3.svg",
+    icon: "/home/service_icon_3.svg",
     title: "AI Research",
     slug: "ai-research",
     des: "Automating repetitive tasks like data entry or invoice processing. Enhancing efficiency by integrating.",
   },
   {
-    icon: "/homepage/service_icon_2.svg",
+    icon: "/home/service_icon_2.svg",
     title: "AI in Cybersecurity",
     slug: "ai-in-cybersecurity",
     des: "Ensuring system integrity through AI-driven oversight. Using AI to detect anomalies and prevent.",

@@ -45,7 +45,7 @@ function OurServices() {
                   <h5 className="flex justify-center items-center gap-2 text-md font-semibold group-hover:text-[#6D30FB] sm:text-sm">
                     Read More <FaArrowRightLong size={20} className="mt-1" />
                   </h5>
-                  <div className="h-[1px] mt-1 w-28 bg-black transition-all duration-300 group-hover:w-22 group-hover:bg-[#6D30FB]"></div>
+                  <div className="h-[1px] mt-1 w-28 bg-[var(--text-secondary)] transition-all duration-300 group-hover:w-22 group-hover:bg-[#6D30FB]"></div>
                 </div>
               </div>
             </Link>

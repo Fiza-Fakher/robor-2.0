@@ -10,9 +10,12 @@ function FAQ() {
 
   return (
     <>
-      <section className="bg-[var(--primary)] mt-24 pb-20 px-4 sm:px-6 md:px-12 lg:pt-30">
-        <div className="flex flex-col md:flex-row items-center justify-between flex-wrap">
+      <section className="bg-[var(--primary)] pb-20 px-4 sm:px-6 md:px-12 lg:pt-30">
         
+        
+        <div className="w-full h-[1px] bg-[var(--text-secondary)] mb-8"></div>
+        
+        <div className="flex flex-col md:flex-row items-center justify-between flex-wrap">
           <div className="flex flex-col w-full md:w-1/2">
             <div className="flex justify-start items-center gap-4 sm:gap-6 mt-6">
               <h5 className="uppercase text-[#6D30FB] font-semibold text-lg sm:text-xl md:text-2xl">
@@ -26,12 +29,11 @@ function FAQ() {
             </h1>
           </div>
 
-          
           <div className="w-full md:w-1/2 flex justify-center md:justify-end items-center mt-8 md:mt-0 pr-0 md:pr-6">
             <h1 className="flex items-center text-[var(--text-secondary)] font-bold text-[150px] sm:text-[200px] md:text-[280px]">
               <span>R</span>
               <img
-                src="/home/about.jpg"
+                src="/home/about.png"
                 alt=""
                 className="w-16 h-16 sm:w-28 sm:h-28 md:w-40 md:h-40 object-cover mx-2"
               />
@@ -40,7 +42,6 @@ function FAQ() {
           </div>
         </div>
 
-        
         <div className="mt-6 flex flex-col justify-center items-center w-full">
           {faq.map((item, index) => (
             <div
