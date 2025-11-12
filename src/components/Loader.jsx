@@ -22,7 +22,7 @@ const Loader = ({ onFinish }) => {
         className="text-[90px] font-extrabold tracking-[25px] text-transparent bg-clip-text 
         bg-gradient-to-r from-[#00E0FF] via-[#8B5CF6] to-[#FF0080] animate-fadeInOut select-none"
       >
-        R O B O R
+        AutoPLai
       </h1>
 
       <style jsx>{`

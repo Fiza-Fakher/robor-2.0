@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <nav className="flex justify-between items-center py-7 px-4 bg-[var(--primary)] text-[var(--text)] relative">
-      <Link to='/'><img src="logo.svg" alt="Logo" className="h-8 md:h-auto" /></Link>
+      <Link to='/'><img src="logo.png" alt="Logo" className="h-8 md:h-auto" /></Link>
 
       {/* Desktop Navigation - unchanged for laptop */}
       <ul className="hidden lg:flex gap-8 bg-[var(--secondary)] rounded-full px-6 py-3">
